@@ -44,14 +44,10 @@ namespace Urgence_N_4_Formation_Neo_Solution
                              'o', 'p', 'q', 'r', 's', 't', 'u',
                              'v', 'w', 'x', 'y', 'z' };
 
-            // Test sur la valeur de décallage (valeur entre 1 et 26)
-            while (decallage < 0)
+            decallage %= 26;
+            if (decallage < 0)
             {
-                decallage = decallage + 26;
-            }
-            while (decallage > 25)
-            {
-                decallage = decallage - 26;
+                decallage += 26;
             }
 
             // Decryptage!
@@ -73,11 +69,6 @@ namespace Urgence_N_4_Formation_Neo_Solution
                     if (decallageDuChar > 25)
                     {
                         decallageDuChar = decallageDuChar - 26;
-                    }
-                    // Si décallage est negatif, ne pas le faire dépasser 0
-                    else if (decallageDuChar < 0)
-                    {
-                        decallageDuChar = decallageDuChar + 26;
                     }
 
                     // On ajoute la nouvelle lettre au message qu'on va imprimer
