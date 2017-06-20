@@ -10,8 +10,7 @@ namespace Urgence_N_4_Formation_Neo_Solution
     {
         /* Encore une fois nous avons besoin de vous en urgence...
          * Connaissez vous le chiffrement de César? Parfait!
-         * A vous de décrypter les deux premiers messages pour pouvoir 
-         * décrypter le troisième !
+         * A vous de décrypter ce message !
          * 
          * Au cas où, le chiffrement de César est un chiffrement par décallage.
          * En utilisant les fonctions fournies, à vous de déchiffrer ces messages codés!
