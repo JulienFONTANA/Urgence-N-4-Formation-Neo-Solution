@@ -9,14 +9,15 @@ namespace Urgence_N_4_Formation_Neo_Solution
     class Program
     {
         /* Encore une fois nous avons besoin de vous en urgence...
+         * Le hacker qui a détruit notre système informatique nous a envoyé un message.
          * Connaissez vous le chiffrement de César? Parfait!
-         * A vous de décrypter ce message !
+         * Son message est crypté avec cette méthode, à vous de le décrypter pour savoir ce qu'il nous veut !
          * 
          * Au cas où, le chiffrement de César est un chiffrement par décallage.
-         * En utilisant les fonctions fournies, à vous de déchiffrer ces messages codés!
+         * En utilisant les fonctions fournies, à vous de déchiffrer le message codé!
          * 
-         * Pour plus se simplicité, ces messages ne contiendrons pas de ponctuation ni accent,
-         * et seront écrit en minuscule. Il y aura tout de même des espaces (on est pas
+         * Pour plus se simplicité, ce message ne contiendra pas de ponctuation ni accent,
+         * et sera écrit en minuscule. Il y aura tout de même des espaces (on est pas
          * sur Twitter!). A vous de vous renseigner pour savoir comment 
          * parcourir une string pour y trouver chaque élément, puis comment
          * remplacer chaque lettre par son équivalent...
@@ -28,7 +29,7 @@ namespace Urgence_N_4_Formation_Neo_Solution
         */
         static void Main(string[] args)
         {
-            string Message = "nfn mflj rmvq mirzdvek ivljjz sirmf vk av ufzj uziv hlv av jlzj zdgivjzfeev";
+            string Message = "jz kl rj ivljjz r uvtipgkvi tr kl rj ul gfkvekzvc kl mrj mfzi fe mr szve izxfcvi sffg";
 
             Console.WriteLine(ChiffrementDeCesar(Message, 9));
         }
